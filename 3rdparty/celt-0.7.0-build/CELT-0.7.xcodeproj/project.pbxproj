@@ -333,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28190CFB150D600400E07613 /* Base.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				ONLY_ACTIVE_ARCH = YES;
 			};
@@ -342,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28190CFB150D600400E07613 /* Base.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 			};
 			name = Release;
@@ -362,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28190CFB150D600400E07613 /* Base.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 			};
 			name = BetaDist;
@@ -400,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28190CFB150D600400E07613 /* Base.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 			};
 			name = AppStore;
